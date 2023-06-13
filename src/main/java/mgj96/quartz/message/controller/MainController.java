@@ -1,4 +1,4 @@
-package mgj96.quartz.controller;
+package mgj96.quartz.message.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
