@@ -3,6 +3,7 @@ package mgj96.quartz.message.service;
 import mgj96.quartz.message.MessageVO;
 import mgj96.quartz.message.repository.MemoryRepository;
 
+@org.springframework.stereotype.Service
 public class ServiceImpl implements Service {
 
     final MemoryRepository repository;
@@ -21,7 +22,7 @@ public class ServiceImpl implements Service {
         MessageVO vo = new MessageVO("010-1234-1234", senderNumber, "test");
 
         try{
-            repository.insert(vo);
+            i = repository.insert(vo);
         }catch (Exception e){
             //예외발생시 롤백
         }
@@ -31,6 +32,6 @@ public class ServiceImpl implements Service {
 
     @Override
     public int checkMessage() {
-        return 0;
+        return repository.countByMessage();
     }
 }

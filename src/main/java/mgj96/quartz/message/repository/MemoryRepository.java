@@ -5,6 +5,7 @@ import mgj96.quartz.message.MessageVO;
 import java.util.ArrayList;
 import java.util.List;
 
+@org.springframework.stereotype.Repository
 public class MemoryRepository implements Repository {
 
     static List<MessageVO> list = new ArrayList<MessageVO>();
