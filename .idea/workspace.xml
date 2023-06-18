@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="237e479c-f795-4f9e-a250-7b06b2e6179a" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/service/mainService.java" afterDir="false" />
+    <list default="true" id="237e479c-f795-4f9e-a250-7b06b2e6179a" name="변경" comment="update messageService add / memoryRepository">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mgj96/quartz/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "/Users/mgj/Documents/git/quartz/src/main/resources/templates",
-    "project.structure.last.edited": "프로젝트",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
@@ -72,11 +76,12 @@
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/src/main/java/mgj96/quartz/controller" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.QuartzApplication">
+  <component name="RunManager" selected="JUnit.QuartzApplicationTests.contextLoads">
     <configuration name="QuartzApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mgj96.quartz.QuartzApplication" />
       <module name="quartz.main" />
@@ -111,8 +116,41 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="QuartzApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quartz.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mgj96.quartz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mgj96.quartz" />
+      <option name="MAIN_CLASS_NAME" value="mgj96.quartz.QuartzApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuartzApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quartz.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mgj96.quartz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mgj96.quartz" />
+      <option name="MAIN_CLASS_NAME" value="mgj96.quartz.QuartzApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuartzApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.QuartzApplicationTests" />
         <item itemvalue="애플리케이션.QuartzApplication" />
         <item itemvalue="Gradle.quartz [dependencies]" />
       </list>
@@ -148,7 +186,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686496018169</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update main">
+      <created>1686496700365</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686496700365</updated>
+    </task>
+    <task id="LOCAL-00005" summary="gitignore test">
+      <created>1686496824665</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686496824665</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update messageService add / memoryRepository">
+      <created>1686668973961</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686668973961</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update messageService test code">
+      <created>1687106717968</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687106717968</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +222,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -165,7 +243,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git directory change" />
     <MESSAGE value="update main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update main page" />
+    <MESSAGE value="update main" />
+    <MESSAGE value="gitignore test" />
+    <MESSAGE value="update messageService add / memoryRepository" />
+    <MESSAGE value="update messageService test code" />
+    <option name="LAST_COMMIT_MESSAGE" value="update messageService test code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
