@@ -2,15 +2,20 @@ package mgj96.quartz.message.service;
 
 import mgj96.quartz.message.MessageVO;
 import mgj96.quartz.message.repository.MemoryRepository;
+import mgj96.quartz.message.repository.Repository;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @org.springframework.stereotype.Service
 public class ServiceImpl implements Service {
 
-    final MemoryRepository repository;
+    //final MemoryRepository repository;
+    final Repository repository;
 
     static String senderNumber = "010-2789-1511";
 
-    public ServiceImpl(MemoryRepository repository) {
+    public ServiceImpl(Repository repository) {
         this.repository = repository;
     }
 
@@ -19,19 +24,21 @@ public class ServiceImpl implements Service {
 
         int i = 0; //메시지 발송 건수
 
-        MessageVO vo = new MessageVO("010-1234-1234", senderNumber, "test");
+        List<MessageVO> list = new ArrayList<MessageVO>();
 
         try{
-            i = repository.insert(vo);
+            for(; i < Math.random() * 10; i++){
+                list.add(repository.save(new MessageVO("010-1234-123"+i, senderNumber, "test")));
+            }
         }catch (Exception e){
             //예외발생시 롤백
         }
 
-        return i;
+        return list.size();
     }
 
     @Override
     public int checkMessage() {
-        return repository.countByMessage();
+        return (int) repository.count();
     }
 }

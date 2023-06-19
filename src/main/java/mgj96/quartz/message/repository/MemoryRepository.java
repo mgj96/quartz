@@ -6,11 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @org.springframework.stereotype.Repository
-public class MemoryRepository implements Repository {
+public class MemoryRepository {
 
     static List<MessageVO> list = new ArrayList<MessageVO>();
     
-    @Override
     public int insert(MessageVO vo) {
 
         list.add(vo);
@@ -18,7 +17,6 @@ public class MemoryRepository implements Repository {
         return 1;
     }
 
-    @Override
     public int countByMessage() {
         return list.size();
     }

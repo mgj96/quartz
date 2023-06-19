@@ -1,6 +1,5 @@
 package mgj96.quartz.message.service;
 
-@org.springframework.stereotype.Service
 public interface Service {
 
     /***

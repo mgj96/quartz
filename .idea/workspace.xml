@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="237e479c-f795-4f9e-a250-7b06b2e6179a" name="변경" comment="update messageService add / memoryRepository">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+    <list default="true" id="237e479c-f795-4f9e-a250-7b06b2e6179a" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mgj96/quartz/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/MessageVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/MessageVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/repository/MemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/repository/MemoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/service/ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,11 +82,15 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/config" />
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/src/main/java/mgj96/quartz/controller" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mgj96.quartz.message.repository" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.QuartzApplicationTests.contextLoads">
+  <component name="RunManager" selected="JUnit.QuartzApplicationTests">
     <configuration name="QuartzApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mgj96.quartz.QuartzApplication" />
       <module name="quartz.main" />
@@ -149,8 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuartzApplicationTests.contextLoads" />
         <item itemvalue="JUnit.QuartzApplicationTests" />
+        <item itemvalue="JUnit.QuartzApplicationTests.contextLoads" />
         <item itemvalue="애플리케이션.QuartzApplication" />
         <item itemvalue="Gradle.quartz [dependencies]" />
       </list>
@@ -214,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687106717968</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update logBack">
+      <created>1687108412458</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687108412458</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +263,8 @@
     <MESSAGE value="gitignore test" />
     <MESSAGE value="update messageService add / memoryRepository" />
     <MESSAGE value="update messageService test code" />
-    <option name="LAST_COMMIT_MESSAGE" value="update messageService test code" />
+    <MESSAGE value="update logBack" />
+    <option name="LAST_COMMIT_MESSAGE" value="update logBack" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
