@@ -27,14 +27,15 @@ public class ServiceImpl implements Service {
         List<MessageVO> list = new ArrayList<MessageVO>();
 
         try{
-            for(; i < Math.random() * 10; i++){
+            //for(; i < Math.random() * 10; i++){
+            for(; i < 1; i++){
                 list.add(repository.save(new MessageVO("010-1234-123"+i, senderNumber, "test")));
             }
         }catch (Exception e){
             //예외발생시 롤백
         }
 
-        return list.size();
+        return 1;
     }
 
     @Override

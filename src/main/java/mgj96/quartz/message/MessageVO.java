@@ -1,9 +1,6 @@
 package mgj96.quartz.message;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Data;
 import lombok.Getter;
 import lombok.ToString;
@@ -15,9 +12,13 @@ import lombok.ToString;
 @Entity
 public class MessageVO {
     public MessageVO(String ReceivedNumber, String senderNumber, String msg) {
+        this.ReceivedNumber = ReceivedNumber;
+        this.senderNumber = senderNumber;
+        this.msg = msg;
     }
 
     @Id
+    @GeneratedValue
     Long id;
     @Column(name = "RECEIVED_NUMBER")
     String ReceivedNumber;  //수신번호

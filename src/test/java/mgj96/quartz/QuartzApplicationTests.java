@@ -18,9 +18,7 @@ class QuartzApplicationTests {
 	@Test
 	void contextLoads() {
 
-		log.debug("보낸 메세지 건수: {}", service.checkMessage());
-		log.debug("보낸 메세지 보내기 서비스: {}", service.messageService());
-		log.info("보낸 메세지 건수: {}", service.checkMessage());
+		service.messageService();
 
 		Assertions.assertEquals(1, service.checkMessage());
 	}
