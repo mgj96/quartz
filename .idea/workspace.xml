@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237e479c-f795-4f9e-a250-7b06b2e6179a" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/job/messageJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/MessageVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/MessageVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/service/ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/QuartzApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/QuartzApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687180688435</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update h2 repository update">
+      <created>1687269069268</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687269069268</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,19 +274,20 @@
     <MESSAGE value="update messageService test code" />
     <MESSAGE value="update logBack" />
     <MESSAGE value="update h2 repository and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="update h2 repository and test" />
+    <MESSAGE value="update h2 repository update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update h2 repository update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java</url>
-          <line>12</line>
+          <line>16</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java</url>
-          <line>18</line>
+          <line>22</line>
           <properties class="mgj96.quartz.QuartzApplicationTests" method="contextLoads">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

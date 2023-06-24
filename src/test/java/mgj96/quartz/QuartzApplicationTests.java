@@ -5,6 +5,10 @@ import mgj96.quartz.message.service.Service;
 import mgj96.quartz.message.service.ServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.quartz.Scheduler;
+import org.quartz.SchedulerException;
+import org.quartz.SchedulerFactory;
+import org.quartz.impl.StdSchedulerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -16,8 +20,13 @@ class QuartzApplicationTests {
 	Service service;
 
 	@Test
-	void contextLoads() {
+	void contextLoads() throws SchedulerException {
 
+		SchedulerFactory schFact = new StdSchedulerFactory();
+		Scheduler scheduler = schFact.getScheduler();
+		scheduler.start();
+
+		scheduler.getJobDetail().
 		service.messageService();
 
 		Assertions.assertEquals(1, service.checkMessage());
