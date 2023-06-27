@@ -20,13 +20,8 @@ class QuartzApplicationTests {
 	Service service;
 
 	@Test
-	void contextLoads() throws SchedulerException {
+	void contextLoads() {
 
-		SchedulerFactory schFact = new StdSchedulerFactory();
-		Scheduler scheduler = schFact.getScheduler();
-		scheduler.start();
-
-		scheduler.getJobDetail().
 		service.messageService();
 
 		Assertions.assertEquals(1, service.checkMessage());

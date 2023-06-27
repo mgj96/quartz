@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237e479c-f795-4f9e-a250-7b06b2e6179a" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/job/messageJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mgj96/quartz/quartzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/QuartzApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/QuartzApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mgj96/quartz/QuartzApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/mgj96/quartz/QuartzApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/job/messageJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/job/messageJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/service/ServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,17 +61,17 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/mgj/Documents/git/quartz/src/main/resources/templates",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mgj/Documents/git/quartz/src/main/resources/templates&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
@@ -82,10 +83,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/mgj96/quartz/controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mgj96.quartz.job" />
       <recent name="mgj96.quartz.message.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QuartzApplicationTests">
+  <component name="RunManager" selected="JUnit.quartzTest.test">
     <configuration name="QuartzApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mgj96.quartz.QuartzApplication" />
       <module name="quartz.main" />
@@ -98,27 +100,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="quartz [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="QuartzApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="quartz.test" />
@@ -151,12 +132,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="quartzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quartz.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mgj96.quartz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mgj96.quartz" />
+      <option name="MAIN_CLASS_NAME" value="mgj96.quartz.quartzTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quartzTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="quartz.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mgj96.quartz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mgj96.quartz" />
+      <option name="MAIN_CLASS_NAME" value="mgj96.quartz.quartzTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuartzApplicationTests" />
+        <item itemvalue="JUnit.quartzTest.test" />
+        <item itemvalue="JUnit.quartzTest" />
         <item itemvalue="JUnit.QuartzApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.QuartzApplicationTests" />
         <item itemvalue="애플리케이션.QuartzApplication" />
-        <item itemvalue="Gradle.quartz [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687269069268</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add quartz">
+      <created>1687609384851</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687609384851</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,16 +295,12 @@
     <MESSAGE value="update logBack" />
     <MESSAGE value="update h2 repository and test" />
     <MESSAGE value="update h2 repository update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update h2 repository update" />
+    <MESSAGE value="add quartz" />
+    <option name="LAST_COMMIT_MESSAGE" value="add quartz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java</url>
           <line>22</line>

@@ -35,7 +35,7 @@ public class ServiceImpl implements Service {
             //예외발생시 롤백
         }
 
-        return 1;
+        return list.size();
     }
 
     @Override
