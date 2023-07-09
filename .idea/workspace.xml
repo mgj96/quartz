@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237e479c-f795-4f9e-a250-7b06b2e6179a" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/mgj96/quartz/quartzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mgj96/quartz/QuartzApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/mgj96/quartz/QuartzApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/job/messageJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/job/messageJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mgj96/quartz/message/service/ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mgj96/quartz/QuartzApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mgj96/quartz/quartzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mgj96/quartz/quartzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,7 @@
       <recent name="mgj96.quartz.message.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.quartzTest.test">
+  <component name="RunManager" selected="JUnit.quartzTest">
     <configuration name="QuartzApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mgj96.quartz.QuartzApplication" />
       <module name="quartz.main" />
@@ -165,8 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.quartzTest.test" />
         <item itemvalue="JUnit.quartzTest" />
+        <item itemvalue="JUnit.quartzTest.test" />
         <item itemvalue="JUnit.QuartzApplicationTests.contextLoads" />
         <item itemvalue="JUnit.QuartzApplicationTests" />
         <item itemvalue="애플리케이션.QuartzApplication" />
@@ -259,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687609384851</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add quartz job test">
+      <created>1687873992855</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687873992855</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +300,8 @@
     <MESSAGE value="update h2 repository and test" />
     <MESSAGE value="update h2 repository update" />
     <MESSAGE value="add quartz" />
-    <option name="LAST_COMMIT_MESSAGE" value="add quartz" />
+    <MESSAGE value="add quartz job test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add quartz job test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -33,6 +33,11 @@ class quartzTest {
 
         // 스케줄러 생성 및 Job, Trigger 등록
         Scheduler scheduler = new StdSchedulerFactory().getScheduler();
+
+        //PropertiesFactoryBean propertiesFactoryBean = new PropertiesFactoryBean();
+        //propertiesFactoryBean.setLocation(new ClassPathResource("/quartz.properties"));
+        //propertiesFactoryBean.afterPropertiesSet();
+
         scheduler.start();
         scheduler.scheduleJob(job, trigger);
 
