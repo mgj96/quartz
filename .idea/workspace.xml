@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mgj96/quartz/quartzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mgj96/quartz/quartzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <recent name="mgj96.quartz.message.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.quartzTest">
+  <component name="RunManager" selected="JUnit.QuartzApplicationTests">
     <configuration name="QuartzApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mgj96.quartz.QuartzApplication" />
       <module name="quartz.main" />
@@ -162,10 +161,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuartzApplicationTests" />
+        <item itemvalue="JUnit.QuartzApplicationTests.contextLoads" />
         <item itemvalue="JUnit.quartzTest" />
         <item itemvalue="JUnit.quartzTest.test" />
-        <item itemvalue="JUnit.QuartzApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.QuartzApplicationTests" />
         <item itemvalue="애플리케이션.QuartzApplication" />
       </list>
     </recent_temporary>
@@ -263,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687873992855</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add quartz job test">
+      <created>1688914519416</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688914519416</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
